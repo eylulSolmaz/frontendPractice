@@ -9,6 +9,7 @@ const notlar = [
 ];
 
 const liste = document.querySelector("#liste");
+const yeniList = document.querySelector("#metin ul");
 
 let satir = "";
 for (not of notlar) {
@@ -34,9 +35,16 @@ document.querySelector("#sil").addEventListener("click", () => {
     sonuc(notlar);
   }
 });
-
-const sonuc = (eklenen) => {
+/* const sonuc = (eklenen) => {
   document.querySelector(
     "#metin ul"
   ).innerHTML = `<li class= "list-group-item">${eklenen}</li>`;
+}; */
+
+const sonuc = (not) => {
+  let yeni = "";
+  for (not of notlar) {
+    yeni += ` <li>${not}</li>`;
+  }
+  yeniList.innerHTML = yeni;
 };
