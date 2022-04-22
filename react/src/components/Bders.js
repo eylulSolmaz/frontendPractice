@@ -1,16 +1,16 @@
 import React from "react";
 import Nese from "./Nese";
-import Umut from "./Umut";
+import Sevgi from "./Sevgi";
 
-const Aders = () => {
+const Bders = () => {
   return (
     <div>
-      A dersini alanlar:
+      Bdersini alanlar:
       <Nese />
-      <Umut />
+      <Sevgi />
       <br />
     </div>
   );
 };
 
-export default Aders;
+export default Bders;

@@ -1,7 +1,7 @@
 import React from "react";
-import students from "../assets/data/students.json";
+import students from "../assets/data/Students.json";
 
-const Header = () => {
+const Liste = () => {
   return (
     <div>
       {students.map((student, index) => {
@@ -25,4 +25,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Liste;

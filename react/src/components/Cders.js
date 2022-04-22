@@ -6,10 +6,12 @@ import Sevgi from "./Sevgi";
 const Cders = () => {
   return (
     <div>
-      C dersini alanlar:
+      Cdersini alanlar:
       <Ruya />
       <Umut />
       <Sevgi />
+      <Umut />
+      <br />
     </div>
   );
 };
