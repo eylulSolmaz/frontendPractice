@@ -1,5 +1,12 @@
-.card {
+.yanyana {
   display: flex;
   flex-wrap: wrap;
   gap: 4rem;
 }
+.akis img {
+  height: 35vh !important;
+}
+
+/* .akis img.rsm {
+  height: 35vh !important;
+} */
