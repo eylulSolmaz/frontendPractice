@@ -3,13 +3,14 @@ import Bders from "./components/Bders";
 import Cders from "./components/Cders"; import Liste from "./comp2/Liste";
 import Tablo from "./comp2/Tablo"; 
 
-import Kurs from "./comp3/Kurs";*/
+import Kurs from "./comp3/Kurs";
+import Kisi from "./comp3/Kisi";
+import Cards from "./comp4/Cards";
+import Akis from "./comp4/Akis";*/
 import students from "./assets/data/Students.json";
 
 import "./assets/css/style.css";
-import Kisi from "./comp3/Kisi";
-import Cards from "./comp4/Cards";
-import Akis from "./comp4/Akis";
+import Bilgiler from "./comp5/Bilgiler";
 
 function App() {
   return (
@@ -34,8 +35,9 @@ function App() {
           );
         })}
       </div>
+       <Akis />
       */}
-      <Akis />
+      <Bilgiler />
     </div>
   );
 }
