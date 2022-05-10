@@ -6,11 +6,12 @@ import Tablo from "./comp2/Tablo";
 import Kurs from "./comp3/Kurs";
 import Kisi from "./comp3/Kisi";
 import Cards from "./comp4/Cards";
-import Akis from "./comp4/Akis";*/
+import Akis from "./comp4/Akis";
+import Bilgiler from "./comp5/Bilgiler";*/
 import students from "./assets/data/Students.json";
 
 import "./assets/css/style.css";
-import Bilgiler from "./comp5/Bilgiler";
+import Bitis from "./comp6/Bitis";
 
 function App() {
   return (
@@ -36,8 +37,9 @@ function App() {
         })}
       </div>
        <Akis />
+       <Bilgiler />
       */}
-      <Bilgiler />
+      <Bitis />
     </div>
   );
 }
